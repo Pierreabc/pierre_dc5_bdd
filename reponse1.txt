@@ -1,6 +1,5 @@
-SELECT
-*
-FROM
-address
-WHERE
-countries = 'JEY' OR countries = 'PAN'
+SELECT * FROM address WHERE countries = 'JEY' OR countries = 'PAN'
+
+SELECT name FROM entity
+
+SELECT country_id FROM officer
