@@ -1,0 +1,6 @@
+SELECT
+*
+FROM
+address
+WHERE
+countries = 'JEY' OR countries = 'PAN'
