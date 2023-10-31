@@ -4,7 +4,7 @@ SELECT name FROM entity
 
 SELECT country_id FROM officer
 
-SELECT count(*)
+SELECT count(name)
 FROM entity
 
 SELECT incorporation_date FROM entity WHERE (incorporation_date > 2000-01-01) 
